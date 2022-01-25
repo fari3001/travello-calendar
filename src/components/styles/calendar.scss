@@ -4,6 +4,7 @@ $button-text-colour: white;
 $border-radius: 50px;
 
 .container {
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,9 +40,170 @@ $border-radius: 50px;
     }
 }
 
-.modal-wrapper {
+.modal-content {
+    display: block;
+    position: relative;
+    overflow: none;
+    padding: 0;
+    width: 80%;
+    max-width: 960px;
+    height: 90%;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    box-shadow: 0px 0px 16px rgb(0 0 0 / 24%);
+    z-index: 99;
+    margin: 0 auto;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    -webkit-border-top-left-radius: 0.5rem;
+    -webkit-border-top-right-radius: 0.5rem;
+    -webkit-border-bottom-right-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+}
+
+.modal-wrapper,
+.modal-footer-wrapper {
+    font-family: 'Montserrat', sans-serif;
     display: flex;
 }
 
+.modal-footer {
+    padding: 0;
+}
+
+.modal-title {
+    font-weight: 700;
+    font-size: 1.88rem;
+}
+
+.modal-calendar {
+    background: #FFFFFF;
+    height: 100%;
+    display: inline-block;
+    border-right: 1px solid #D8D8D8;
+}
+
+.modal-packages {
+    background: #F5F5F5;
+    height: 100vh;
+    display: inline-block;
+    overflow-y: scroll;
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.modal-body-buttons-left {
+    border-top-left-radius: 32px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 32px;
+    -webkit-border-top-left-radius: 32px;
+    -webkit-border-top-right-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+    -webkit-border-bottom-left-radius: 32px;
+    -moz-border-radius-topleft: 32px;
+    -moz-border-radius-topright: 0;
+    -moz-border-radius-bottomright: 0;
+    -moz-border-radius-bottomleft: 32px;
+    background: #F54D0D;
+    color: #FFFFFF;
+    height: 2.5rem;
+    width: 3rem;
+    margin-right: -4px;
+}
+.modal-body-buttons-right {
+    border-top-left-radius: 0;
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 0;
+    -webkit-border-top-left-radius: 0;
+    -webkit-border-top-right-radius: 32px;
+    -webkit-border-bottom-right-radius: 32px;
+    -webkit-border-bottom-left-radius: 0;
+    -moz-border-radius-topleft: 0;
+    -moz-border-radius-topright: 32px;
+    -moz-border-radius-bottomright: 32px;
+    -moz-border-radius-bottomleft: 0;
+    background: #F54D0D;
+    color: #FFFFFF;
+    height: 2.5rem;
+    width: 3rem;
+    margin-left: -4px;
+}
+
+.react-calendar__navigation button,
+.react-calendar__navigation__label,
+.react-calendar__tile {
+    min-width: 44px;
+    background: none;
+    border: none;
+}
+
+.react-calendar__tile {
+    font-size: 0.75rem;
+}
+
+.number-input {
+    width: 3rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #D8D8D8;
+    border-top: 1px solid #D8D8D8;
+    border-left: none;
+    border-right: none;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: top;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.react-calendar__navigation__label,
+.react-calendar__navigation {
+    padding: 1rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.react-calendar__month-view__weekdays__weekday  {
+    flex: 0 0 14.2857%;
+    overflow: hidden;
+    padding: 0.5em;
+}
+
+.react-calendar__tile {
+    display: inline-block;
+    text-align: center;
+    padding: 12px 0;
+    font-weight: 700;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.react-calendar__month-view__weekdays {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.75em;
+}
 
 
