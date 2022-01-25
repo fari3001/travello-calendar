@@ -5,7 +5,7 @@
 - 🌱 I’m currently learning more about react and how it works (all the good and bad stuff) 🤣
 - 👯 I love collarating with others and pooling our knowledge together to create ~~monsters~~ fun and awesome applications
 - 🥅 2022 Goals: Build out a more extensive knowledgebase within React
-- ⚡ Fun fact: I love to play soccer and game (PS 5 fan boy)
+- ⚡ Fun fact: I love to play soccer and games (PS 5 fan boy)
 
 <br />
 
