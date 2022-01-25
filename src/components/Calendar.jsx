@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import {Modal, Button} from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import DatePicker from 'sassy-datepicker';
+import Calendar from 'react-calendar'
 import "../components/styles/calendar.scss"
 
 export default function Calender() {
@@ -45,7 +45,7 @@ export default function Calender() {
                 <Modal.Footer>
                     <div className="modal-footer-wrapper">
                         <div className="modal-calendar">
-                        <DatePicker onChange={onChange} />
+                        <Calendar />
                         </div>
                         <div className="modal-packages"></div>
                     </div>
