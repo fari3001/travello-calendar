@@ -1,0 +1,47 @@
+$background-color: rgba(245, 77, 13, 0.1);
+$button-colour: #F54D0D;
+$button-text-colour: white;
+$border-radius: 50px;
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $background-color;
+    width: 50%;
+    height: 40%;
+}
+
+.button {
+    background: $button-colour;
+    color: $button-text-colour;
+    border-color: $button-colour;
+    min-width: 100px;
+    width: fit-content;
+    height: 4rem;
+    padding: 0.5rem 1.5rem;
+    text-align: center;
+    display: grid;
+    align-content: center;
+    -webkit-border-radius: $border-radius;
+    -moz-border-radius: $border-radius;
+    border-radius: $border-radius;
+    font-weight: 900;
+    font-size: 16px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+    &:hover, &:focus {
+        background-color: $button-colour; 
+        color: $button-text-colour;
+        border: $button-colour;
+    }
+}
+
+.modal-wrapper {
+    display: flex;
+}
+
+
+
