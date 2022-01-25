@@ -1,14 +1,11 @@
 import React from 'react'
-
+import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 export default function Calender() {
-    jQuery.getJSON('https://api-stage.travelloapp.com/graphql', function(quote){
-//code to display your quote on the website goes here.
-    })
 
     return (
         <div>
-            
+            <button>Check Availability</button>
         </div>
     )
 }
