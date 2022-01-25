@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {Modal, Button} from "react-bootstrap";
+import {Modal, Button, DropdownButton, Dropdown} from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Calendar from 'react-calendar';
 import "../components/styles/calendar.scss";
@@ -55,7 +55,13 @@ export default function Calender(props) {
                         <div className="modal-packages">
                             <div className="modal-date-filter">
                                 <div className="modal-date">12 September 2021</div>
-                                <div className="modal-filter"></div>
+                                <div className="modal-filter">
+                                <DropdownButton className="modal-filter-dropdown" id="dropdown-basic-button" title="Times: All">
+                                    <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                                    <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+                                    <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                                </DropdownButton>
+                                </div>
                             </div>
                         </div>
                     </div>
