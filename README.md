@@ -1,6 +1,6 @@
 ### Hi there, I'm Farhaan 👋 
 
-## I'm a front end Web Developer who's super KEEN to learn !!
+### I'm a front end Web Developer who's super KEEN to learn !!
 
 - 🌱 I’m currently learning more about react and how it works (all the good and bad stuff) 🤣
 - 👯 I love collarating with others and pooling our knowledge together to create ~~monsters~~ fun and awesome applications
