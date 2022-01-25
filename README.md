@@ -1,4 +1,4 @@
-### Hi there, I'm Farhaan 👋 
+## Hi there, I'm Farhaan 👋 
 
 ### I'm a front end Web Developer who's super KEEN to learn !!
 
